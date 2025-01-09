@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+}
+
+.logo {
+    width:30%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-top: 4%;
+    }
+    
+    nav {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        border: 1px solid;
+        border-color: black;
+        background-color: black;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        text-align: center;
+        font-size: 150%;
+    }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #736d66;
+    transition: 0.3s;
+    text-decoration: dotted;
+}
+
+a:link{
+    color: aliceblue;
+}
+a:visited{
+    color: aliceblue;
+}
+
+body {
+    background-color: aliceblue;
+    color: #000000;
+    text-align: center;  
+    background-image: url(image/bgall.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Interests {
+    font-family: sans-serif;
+    text-align: left;
+    margin-left: 2%
+}
+
+h1 {
+    margin-top: 5%;
+    font-size: 500%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+
+ul,li {
+    margin-left: 1%;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+}
+
+ul {
+    margin-top: 3%;
+}
+
+li {
+    width: 50%;
+    height: 20%;
+    border: none;
+    margin-left: 10%;
+	text-align: justify;
+    padding-bottom: 1%;
+}
+
+p {
+    font-size: 130%;
+}
+
+.Inspiration, .FutureLearning, .Hobbies {
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+#Inspirationsimg, #FutureLearningimg {
+    border-radius: 60%;
+    margin-left: 15%;
+    width: 25%;
+}
+
+#Inspirationsimg:hover, #FutureLearningimg:hover {
+
+        transform: scale(1.1);
+        filter: brightness(1);
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+        transition: 0.3s;
+    
+}
+
+#Hobbiesimg {
+    border-radius: 50%;
+    margin-left: 15%;
+    width: 25%;
+}
+
+#Hobbiesimg:hover {
+    transform: scale(1.1);
+        filter: brightness(1);
+        box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+        transition: 0.3s;
+}
+
+.flexs {
+    display: flex;
+}
+
+
+footer {
+    background-color: #332f2f;
+    margin: auto;
+    padding: 5px;
+    width: auto;
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
+
+.logo2 {
+    width: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header{
+				display: flex;
+				flex-direction: column;
+                background-color: black;
+				justify-content: center;
+				align-items: center;
+        }
+
+			.logo {
+				width:30%;
+				margin-bottom: 1%;
+				margin-left: auto;
+                margin-top: 4%;
+			}
+			
+            nav {
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%;
+                border: 1px solid;
+                border-color: black;
+                background-color: black;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                text-align: center;
+                font-size: 150%;
+			}
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px;
+        }
+
+        nav a:hover {
+            color: #736d66;
+            transition: 0.3s;
+            text-decoration: dotted;
+        }
+        
+        body {
+            background-color: aliceblue;
+            color: #333;
+            text-align: center;  
+            background-image: url(image/bgall.PNG);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .container {
+            position: relative;
+            margin-top: 0;
+            width: 100%;
+            height: 20%;
+        }
+
+        #bgup {
+            width: 100%;
+        }
+
+        .text1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 300%;
+            padding-top: 5%;
+            left: 50%;
+        }
+
+        audio {
+            margin: 2%;
+        }
+        
+        .text2 {
+            font-family: sans-serif;
+            font-size: 150%;
+            text-align: justify;
+            margin-top: 1%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        #linklain {
+            color: #838262;
+        }
+
+        .buttons {
+            text-decoration: none;
+        }
+
+        #one {
+            font-family: sans-serif;
+            margin-top: 5%;
+            padding: 2% 5%;
+            background-color: #736d66;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 130%;
+        }
+
+        #one:hover {
+            transform: scale(1.05);
+        }
+
+        #two {
+            font-family: sans-serif;
+            margin: 3%;
+            padding: 2% 5%;
+            background-color: #736d66;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 150%;
+        }
+
+        #two:hover {
+            transform: scale(1.05);
+        }
+
+        #three {
+            font-family: sans-serif;
+            margin-bottom: 10%;
+            padding: 2% 5%;
+            background-color: #736d66;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 150%;
+        }
+
+        #three:hover{
+            transform: scale(1.05);
+        }
+
+        footer {
+    background-color: #332f2f;
+    margin: auto;
+    padding: 5px;
+    width: auto;
+    margin-top: auto;
+    color: white;
+    text-align: center;
+}
+
+.logo2 {
+    width: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+        a:link{
+            color: aliceblue;
+        }
+        a:visited{
+            color: aliceblue;
+        }
+        
+    </style>
+
+</head>
+<header>
+    <div>
+        <a href="index.html"><img src="image/logo.PNG" alt= "logo" class="logo" width="10%"></a>
+    </div>
+    <nav>
+        <a href="2personal.html">ABOUT |</a>
+        <a href="3portfolio.html">PORTFOLIO |</a>
+        <a href="4interests.html">INTERESTS |</a>
+        <a href="5education.html">EDUCATION |</a>
+        <a href="6contact.html">CONTACT |</a>
+   </nav>
+</header>
+
+<body>
+    <div class="container">
+        <img src="" id="bgup">
+    <div class="text1"><h1 style="color: black">HI, Welcome!</B></h1></div>
+
+    <audio controls autoplay>
+        <source src="audio/Calm Music (No Copyright)  Dawn by @Sappheiros.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="text2"><p style="color: black;">Hi! My name is Aufa. I am currently taking CDIM262 - Bachelor of Information Science (Hons) Information Systems Management. 
+        This site is a reflection of my skills, interests, and professional journey. I’m excited to share more about myself with you.
+        You can get to know <a href="2personal.html" target="blank" id="linklain"> about me</a> here.</p></div>
+    </div>
+
+    <div class="buttons">
+    <div>
+        <button id="one"> <a href="3portfolio.html" target="blank">PORTFOLIO</a></button>
+    </div>
+    <div>
+        <button id="two"> <a href="4interests.html" target="blank">INTERESTS</a></button>
+    </div>
+    <div>
+        <button id="three"> <a href="5education.html" target="blank">EDUCATION</a></button>
+    </div>
+    </div>
+
+</body>
+
+<footer>
+    <a href="Student.html"><img src="image/logo1.PNG" alt="logo" class="logo2"></a>
+<div>© 2024 Aufa. All rights reserved.</div>
+</footer>
+</html>
